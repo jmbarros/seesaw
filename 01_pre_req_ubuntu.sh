@@ -14,3 +14,7 @@ modprobe dummy numdummies=1
 echo options ip_vs > /etc/modprobe.d/ip_vs.conf
 echo options nf_conntrack_ipv4 > /etc/modprobe.d/nf_conntrack_ipv4.conf
 echo options dummy numdummies=1 > /etc/modprobe.d/dummy.conf
+
+apt-get install golang
+apt-get install protobuf-compiler
+apt-get install libnl-3-dev libnl-genl-3-dev
